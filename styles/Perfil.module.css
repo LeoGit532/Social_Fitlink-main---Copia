@@ -1,0 +1,70 @@
+.profileContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profileHeader {
+    display: flex;
+    justify-content: space-between; /* Para a logo à direita */
+    align-items: center;
+    background-color: #000000;
+    padding: 20px;
+  }
+  
+  .profileImage {
+    max-width: 150px;
+    border-radius: 50%;
+    /* Mover a imagem para a direita */
+    margin-left: auto;
+  }
+  
+  .profileInfo {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .h2 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px; /* Espaço adicional abaixo do nome */
+  }
+  
+  .h3 {
+    font-size: 18px;
+    color: #777;
+    margin: 0;
+    margin-bottom: 10px; /* Espaço adicional abaixo do nome de usuário */
+  }
+  
+  .p {
+    margin-bottom: 10px; /* Espaço adicional abaixo da biografia */
+  }
+  
+  .profileStats {
+    display: flex;
+    margin-top: 20px; /* Espaço adicional entre as estatísticas e a biografia */
+  }
+  
+  .profileStat {
+    margin-right: 20px;
+    font-size: 16px;
+  }
+  
+  .profileStat strong {
+    font-weight: bold;
+  }
+  
+  .userPosts {
+    display: flex;
+    flex-wrap: wrap; /* Para mostrar os posts lado a lado */
+    margin-top: 20px;
+  }
+  
+  .userPost {
+    flex: 0 0 calc(33.33% - 20px); /* Para que cada post fique ao lado do outro */
+    margin-right: 20px; /* Espaço entre os posts */
+    margin-bottom: 20px;
+    /* Adicione mais estilos aqui para cada post */
+  }
+  

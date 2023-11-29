@@ -1,0 +1,15 @@
+/* PostList.css */
+
+.post-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Estilo adicional se necessário para ajustar o layout em telas menores */
+  @media (max-width: 768px) {
+    .post-list {
+      grid-template-columns: 1fr;
+    }
+  }
+  

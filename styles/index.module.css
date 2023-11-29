@@ -1,0 +1,78 @@
+/* styles/index.module.css */
+
+/* styles/index.module.css */
+
+.homeContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 200px; /* Ajuste conforme necessário */
+  height: 200px; /* Ajuste conforme necessário */
+}
+
+.postForm {
+  margin-bottom: 20px;
+}
+
+
+
+  .post {
+    background-color: #8a3f3f;
+    border: 1px solid #705555;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    padding: 12px;
+    box-shadow: 0 1px 3px rgba(242, 247, 249, 0.12), 0 1px 2px rgba(157, 160, 177, 0.24);
+  }
+  
+  .post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 12px;
+  }
+  
+  .post-content {
+    margin-bottom: 12px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .comment {
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+  }
+  
+  .likes {
+    margin-top: 10px;
+    color: #1da1f2; /* Cor azul do Twitter */
+    cursor: pointer;
+  }
+  
+  .like-button {
+    background-color: transparent;
+    border: none;
+    color: #1da1f2;
+    cursor: pointer;
+  }
+  
+  .like-button:hover {
+    text-decoration: underline;
+  }
+  

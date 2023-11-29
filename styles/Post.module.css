@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin-inline: auto;
+    margin-bottom: 1.5rem;
+}
+
+.header {
+    display: grid;
+    align-items: flex-start;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.postUserInfo {
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.postUserInfo .back {
+    width: 100%;
+}
+
+.postUserInfo img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.comments {
+    display: grid;
+    grid-gap: .5rem;
+}
+
+.comment {
+    display: flex;
+    gap: .25rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.comment_img {
+    width: 2rem !important;
+    height: 2rem !important;
+    border-radius: 50% !important;
+}
